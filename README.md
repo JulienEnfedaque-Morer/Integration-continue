@@ -16,7 +16,7 @@ Julien.EM Papis.C
       sudo apt update
       sudo apt install -y curl openssh-server ca-certificates tzdata perl
       curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
-      sudo EXTERNAL_URL="https://gitlab.example.com" apt-get install gitlab-ce
+      sudo EXTERNAL_URL="https://gitlab.example.com" apt install gitlab-ce
   SHELL 
 
 
