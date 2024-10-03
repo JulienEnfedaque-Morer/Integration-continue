@@ -8,10 +8,10 @@ Julien.EM Papis.C
 
 #Paramètre du Vagrantfile
 
-1.Pour rediriger le port HTTP : config.vm.network "forwarded_port", guest: 80, host: 8080
-2.Pour rediriger le port HTTPS :  config.vm.network "forwarded_port", guest: 443, host: 8443
-3.Pour demander l'installation d'une VM ubuntu : config.vm.box = "generic/ubuntu2204"
-4.Pour la pré-installation du gitlab :
+1. Pour rediriger le port HTTP : config.vm.network "forwarded_port", guest: 80, host: 8080
+2. Pour rediriger le port HTTPS :  config.vm.network "forwarded_port", guest: 443, host: 8443
+3. Pour demander l'installation d'une VM ubuntu : config.vm.box = "generic/ubuntu2204"
+4. Pour la pré-installation du gitlab :
   config.vm.provision "shell", inline: <<-SHELL
       sudo apt update
       sudo apt install -y curl openssh-server ca-certificates tzdata perl
