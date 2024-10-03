@@ -1,10 +1,10 @@
 Julien.EM Papis.C
 
 #Description
-1.Le fichier vagrantfile permet d'installer une machine virtuel avec Gitlab pré-installé.
+1. Le fichier vagrantfile permet d'installer une machine virtuel avec Gitlab pré-installé.
 
 #Prerequis
-1.	Installer Vagrant : https://developer.hashicorp.com/vagrant/install et Virtual box (ne pas dépasser la version 7.0 de VB)
+1. Installer Vagrant : https://developer.hashicorp.com/vagrant/install et Virtual box (ne pas dépasser la version 7.0 de VB)
 
 #Paramètre du Vagrantfile
 
