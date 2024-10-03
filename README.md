@@ -1,4 +1,4 @@
-Julien.EM Papis.c
+Julien.EM Papis.C
 
 #Description
 Le fichier vagrantfile permet d'installer une machine virtuel avec Gitlab pré-installé.
