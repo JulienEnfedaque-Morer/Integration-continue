@@ -7,6 +7,7 @@ Julien.EM Papis.C
 1.	Installer Vagrant : https://developer.hashicorp.com/vagrant/install et Virtual box (ne pas dépasser la version 7.0 de VB)
 
 #Paramètre du Vagrantfile
+
 1.Pour rediriger le port HTTP : config.vm.network "forwarded_port", guest: 80, host: 8080
 2.Pour rediriger le port HTTPS :  config.vm.network "forwarded_port", guest: 443, host: 8443
 3.Pour demander l'installation d'une VM ubuntu : config.vm.box = "generic/ubuntu2204"
