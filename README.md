@@ -26,4 +26,8 @@ Julien.EM Papis.C
 3.	à partir d'un invite de commande Powershell, écrire la commande "vagrant up" qui va télécharger la VM puis la lancer automatiquement avec virtualbox/VMWare 
 4.	écrire la commande "vagrant ssh" pour acceder à la VM par SSH
 5.	Lancer le gitlab avec la commande "sudo gitlab-ctl start"
-6.	Vérifier que le module gitlab container registry est installé et actif avec la commande : "sudo gitlab-ctl status" 
+6.	Vérifier que le module gitlab container registry est installé et actif avec la commande : "sudo gitlab-ctl status"
+7.	Afficher le mdp du compte Gitlab : sudo cat /etc/gitlab/initial_root_passwor
+8.	Se connecter avec "https://localhost:8443" puis se connecter avec l'user "root" et le mdp
+9.	Dans le menu "admin" -> "settings" -> "général" -> "Import and export settings" -> "Expand" -> Selectionner Github -> "Save" en bas
+10.	 
